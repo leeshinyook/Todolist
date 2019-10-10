@@ -1,0 +1,110 @@
+* {
+    margin: 0; padding: 0
+}
+
+body {
+    font: 12px/1.6 'Malgon Gothic', sans-serif;
+}
+.res{
+    display: block;
+    float: left;
+    border-bottom: 3px solid rgb(83, 83, 83);
+    padding: 7px;
+}
+.company{
+    display:  block;
+    float: right;
+    padding: 7px;
+}
+#wrap #header{
+    *zoom: 1;
+    background: #ccc;
+    padding: 10px 4px 0px 4px;
+    line-height: 1.5;   
+}
+#header:after {
+    content: ''; display: block; clear:both;
+}
+#container {
+    text-align: center
+}
+.h_content {
+    padding-top: 100px;
+    padding-bottom: 30px;
+    font-size: 70px;
+}
+#container input{
+    width: 402px;height: 30px; font-size: 15px;box-sizing: border-box;
+}
+.list li {
+    width: 400px;
+    height: 30px;
+    padding: 0px;
+    border: 1px solid black; 
+    margin: 0 auto;
+    position: relative;
+    list-style-type: none;
+}
+
+.list_text{
+    position: absolute;
+    display: block;
+    left: 30px;
+    top: 6px;
+}
+.btn-remove::before {
+    content: 'X'
+}
+.btn-remove {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #ccc;
+    color: white;
+    border: none;
+    padding: 2px 5px;
+    display: block;
+    right: 25px;
+    top: 6px;
+}
+.check-item{
+    position: absolute;
+    display: block;
+    top: -0.5px;
+}
+.list li:after{
+    content:' '; display: block; clear: both;
+ }
+
+ #list_footer{
+     border: none;
+ }
+ #list_footer:after{
+     content: ' '; display: block; clear: both;
+ }
+ #list_footer span{
+     display: block;
+     float: left;
+ }
+ #list_footer div{
+     display: block;
+     float:  right;  
+ }
+ #list_footer .all{
+     width: 40px;
+ }
+ #list_footer .active{
+    width: 60px;
+}
+ #list_footer .completed{
+     width: 80px;
+ }
+ #list_footer .clear{
+    width: 50px;
+}
+#footer {
+    margin-top: 20px;
+    font-size: 5px;
+    text-align: center;
+}
+
+
